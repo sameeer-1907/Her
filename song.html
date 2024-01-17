@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute-Song</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="./images/balloon-heart-fill.svg"  type="image/x-icon">
+    <style>
+        body{
+            background: linear-gradient(45deg, rgba(78, 66, 112, 0.6), rgba(84, 96, 162, 0.4) 30%, rgba(252, 140, 222, 0.8) 50%, rgba(99, 89, 176, 0.4) 70%);
+            height:100vh;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        header.p-3.text-bg-dark {
+          background-color: transparent !important;
+        }
+        
+        header.p-3.text-bg-dark .text-white,
+        header.p-3.text-bg-dark .text-secondary {
+          color: black !important;
+          font-weight: bold;
+        }
+        
+        header.p-3.text-bg-dark .btn-outline-light,
+        header.p-3.text-bg-dark .btn-warning {
+          color: rgb(246, 161, 225) !important;
+          border-color: pink !important;
+        }
+    
+        header.p-3.text-bg-dark .btn-outline-light:hover,
+        header.p-3.text-bg-dark .btn-warning:hover {
+          color: #fff !important;
+          font-weight: bold;
+          background-color: rgb(54, 54, 111) !important;
+          border-color: pink !important;
+        }
+
+        button.btn.btn-outline-light.me-2{
+            color: #fff !important;
+            font-weight: bold;
+            background-color: rgb(185, 46, 180) !important;
+            border-color: pink !important;
+        }
+
+        button.btn.btn-warning{
+            background-color: rgb(185, 46, 180);
+            color:white !important;
+            font-weight: bold !important;
+        }
+        h1.display-5.fw-bold.text-body-emphasis.lh-1.mb-3{
+            color:black !important;
+            font-weight: bolder;
+        }
+
+        button.btn.btn-primary.btn-lg.px-4.me-md-2 {
+          background-color: rgb(185, 46, 180) !important;
+          border-color: lavenderblush !important;
+        }
+
+        img{
+          border-radius: 2% !important;
+        }
+
+        video.object-fit-contain{
+            width:auto;
+            height:30rem;
+        }
+
+        div.container1{
+            display: flex;
+            justify-content: center;
+            padding:0.5rem;
+        }
+
+        div.alert.alert-primary{
+            width:40% !important;
+            background-color: rgb(225, 130, 222) !important;
+            color:rgb(50, 0, 73) !important;
+        }
+        
+        @media (max-width: 768px){
+            div.alert.alert-primary{
+            width:80% !important;
+            background-color: rgb(225, 130, 222) !important;
+            color:rgb(50, 0, 73) !important;
+        }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                    <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                  </svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="./index.html" class="nav-link px-2 text-secondary">Home</a></li>
+              <li><a href="./Memories.html" class="nav-link px-2 text-white">Our Memories</a></li>
+              <li><a href="./littleThings.html" class="nav-link px-2 text-white">Little Things</a></li>
+              <li><a href="./song.html" class="nav-link px-2 text-white">The Song</a></li>
+              <li><a href="./littleThings.html" class="nav-link px-2 text-white">Apologies</a></li>
+            </ul>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Yes</button>
+              <button type="button" class="btn btn-warning">Cheppu</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+      <div class="container1">
+        <video src="./music/3080037c-6972-4958-bfc1-8495d27fd3bc.mp4" class="object-fit-contain" controls></video>
+    </div>
+
+    <div class="container1"><div class="alert alert-primary text-center" role="alert">
+        Not much of a sing-er so made this using AI. ik it's not that great but, i hope you like it.
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
